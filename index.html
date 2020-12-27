@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juan Nava | Software Developer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Turret+Road&display=swap" rel="stylesheet">        <link rel="stylesheet" href="stylesheet.css">
+        <script type="text/javascript" src="./app.js"></script>
+    </head>
+    <body class="container">
+    <!--Start of navigation bar-->
+        <div>
+            <nav id="navbar">
+            <ul>
+                <li><a href="#header"><img src="./pictures/method-draw-image.svg" style="width: 25px; height: 25px; margin-right: 10px;"></a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+        <!--End of navigation bar-->
+        <header>
+        <!--Start of header-->
+            <div id="header"> 
+                <div class="grid-container">
+                    <h1 class="MainTitle">Hi, my name is Juan Nava and I'm a Full Stack Developer</h1>
+
+                    <h2 style="width: 100%; " class="button"><a href="#portfolio">Take a look to some of my projects<br>
+                        <span id="button1" class="fa fa-chevron-down" aria-hidden="true"></span></a></h2>
+                </div>
+
+            <!--End of header-->
+            </div>
+        </header>
+        <!--Start of portfolio section-->
+        <div id="portfolio">
+            <div class="d1">
+                <h2>
+                    Rock, Paper, Scissors
+                </h2>
+                <p>
+                    Little game build with no libraries, just HTML, CSS and Javascript
+                </p>
+              
+                <div class="items_container">
+                    <div style="align-content: center;">
+                        <span style="align-self: center;" class="fa-stack fa-5x">
+                            <i class="fas fa-hexagon fa-stack-2x"></i>
+                            <i class="fal fa-hand-rock fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div style="align-content: center;">
+                        <span style="align-self: center;" class="fa-stack fa-5x">
+                            <i class="fas fa-hexagon fa-stack-2x"></i>
+                            <i class="fal fa-hand-paper fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <!--Line break-->
+                    <div style="flex-basis: 100%; height: 0px;"></div> 
+                    <div style="align-content: center;">
+                        <span style="align-self: center;" class="fa-stack fa-5x">
+                            <i class="fas fa-hexagon fa-stack-2x"></i>
+                            <i class="fal fa-hand-peace fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </div>
+                </div>
+                <a href="https://johannwolf.github.io/rock-paper-scissors-game/" target="blank">Open Game</a>
+            </div>
+
+            <div class="d1">
+                <h2>
+                    Ticketing System
+                </h2>
+                <p>
+                    Ticketing System using React, NodeJS and PostgreSQL
+                </p>
+                <div class="items_container">
+                    <div style="align-content: center;">
+                        <span style="align-self: center;" class="fa-stack fa-5x">
+                            <i class="fas fa-hexagon fa-stack-2x"></i>
+                            <i class="fal fa-bug fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div style="align-content: center;">
+                        <span style="align-self: center;" class="fa-stack fa-5x">
+                            <i class="fas fa-hexagon fa-stack-2x"></i>
+                            <i class="fal fa-ticket-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                    <div style="flex-basis: 100%; height: 0px;"></div>
+                    <div style="align-content: center;">
+                        <span style="align-self: center;" class="fa-stack fa-5x">
+                            <i class="fas fa-hexagon fa-stack-2x"></i>
+                            <i class="fal fa-clipboard-list-check fa-stack-1x fa-inverse"></i>
+
+                        </span>
+                        </div>
+                </div>
+                <a href="#" target="blank">Video</a>
+            </div>
+        </div>
+        
+        <!--End of portfolio section-->   
+        <footer>
+            <div id="footer">
+                <div class="form_container">
+                    <h1>Contact Me</h1>
+                    <!--Line break-->
+                    <div style="flex-basis: 100%; height: 0px; margin: 0;"></div> 
+                    <form id="contactForm">
+                        <input class="form_fields" name="name" placeholder="Name" type="text" id="name">
+                        <input class="form_fields" name="email" placeholder="Email" type="email" id="email">
+                        <textarea style="height: 30%;" class="form_fields" name="messsage" placeholder="Message" type="text" id="message"></textarea>
+                    </form>
+                </div>
+                <!--Line break-->
+                <div style="flex-basis: 100%; height: 0px;">
+                    <p id="validationMessage" style="text-align: center"></p>
+                </div>
+                <button class="chevrons" id="submit" onclick="sendForm()">SUBMIT</button>
+                
+                <!--Line break-->
+                <div style="flex-basis: 100%; height: 20px;"></div> 
+
+                <!--Line break-->
+                <div style="flex-basis: 100%; height: 0px;"></div> 
+
+                <div style="display: flex;">
+                    <a href="https://www.linkedin.com/in/juannava-profile/?locale=en_US" target="blank"><i class="footer_icon fab fa-linkedin-in fa-lg"></i></a>
+                    <a href="https://github.com/JohannWolf" target="blanck"><i class="footer_icon fab fa-github fa-lg"></i></a>
+                    <a href="https://twitter.com/JohannKunNcats" target="blanck"><i class="footer_icon fab fa-twitter fa-lg"></i></a>
+                    <a href="https://wa.me/+528991385312" target="blank"><i class="footer_icon fab fa-whatsapp fa-lg"></i></a>
+                </div>  
+            </div>
+        </footer>
+    </body>
+</html>
