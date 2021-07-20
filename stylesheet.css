@@ -41,8 +41,12 @@ nav a:hover{
   background-color:black;
 }
 
-nav a:active {
-  color: #e31b6d;
+li.active > a {
+  border-left: 2px solid;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-shadow: 2px 2px #252324;
 }
 
 nav li {
@@ -75,7 +79,7 @@ nav li {
 }
 
 #welcome-section{
-  height:100vh;
+  height:115vh;
 }
 a {
     text-decoration: none;
@@ -113,7 +117,7 @@ h2 a:hover{
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    min-height: 110vh;
+    min-height: 115vh;
     height: auto;
     justify-content: space-around;
 }
@@ -163,7 +167,7 @@ h2 a:hover{
   padding: 40px 0px 10px 0px;
   display: flex;
   width: auto;
-  height: 100vh;
+  height: 115vh;
   justify-content: space-around;
   bottom:0px;
   flex-wrap: wrap;
