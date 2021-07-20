@@ -17,8 +17,10 @@ html {
     left: 0PX;
     max-width: 100%;
     width: 100%;
-    background: #021327;
+    background: #be3144;
     border-bottom: 3px solid #2AC8CE;
+    display: flex;
+    z-index: 10;
     }
 
 nav ul {
@@ -50,11 +52,7 @@ nav li {
 /*End of navigation bar*/
 
 #header{
-  background: url(./pictures/1687763.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color:#303841;
   margin: 0px;
   padding: 55px 0px 75vh 0px;
   display: flex;
@@ -76,13 +74,15 @@ nav li {
   text-align: center;
 }
 
-h2 a {
+#welcome-section{
+  height:100vh;
+}
+a {
     text-decoration: none;
     color: white;
     padding: 1.5em 1.5em;
-    font-family: 'Turret Road', cursive;
+    font-family: 'Turret Road',   cursive;
     font-size: 1.5em;
-
 }
 
 h2 a:hover{
@@ -109,7 +109,7 @@ h2 a:hover{
 }
 
 #portfolio{
-    background: #ffffff;
+    background: #f1faee;
     display: flex;
     flex-wrap: wrap;
     width: auto;
@@ -125,10 +125,11 @@ h2 a:hover{
   }
 
 .d1 h2{
-  color: #3E92CC;
+  color: white;
 }
 
 .items_container{
+  margin-top:40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -188,6 +189,34 @@ h2 a:hover{
   color:#003f91;
   background-color:#FFFFFF;
 }
+
+.project-title {
+  font-size: 1.2rem;
+  text-align:center;
+  padding: 2rem 0.5rem;
+  background-color: #303841;
+  width: 100%;
+}
+
+.code {
+  color: #303841;
+  transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+  color: #ff7f50;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
 
 @keyframes arrow{
   0%{

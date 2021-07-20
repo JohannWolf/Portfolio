@@ -11,7 +11,7 @@ function sendForm(){
     if (name != '' && email != '' && message != '') {
     if (email.match(emailReg)) {
         console.log('Sending form to server...');
-            fetch('http://34.105.65.51:3000/email', {
+            fetch('https://formspree.io/f/mgerlpgr', {
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -22,6 +22,7 @@ function sendForm(){
             }
     ).then( function(res){
         console.log(res);
+        document.getElementById('validationMessage').innerHTML = 'Your message was sent successfully!'
     }).catch(function(error){
         console.log(error.message);
     })
