@@ -6,184 +6,91 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Turret+Road&display=swap" rel="stylesheet">     
-        <link rel="stylesheet" href="stylesheet.css">     
-        <script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">          
     </head>
     <body class="container">
     <!--Start of navigation bar-->
-        <div>
+        <div id="navbar-container">
             <nav id="navbar">
             <ul>
-                <li><a href="#header"></a></li>
                 <li><a href="#welcome-section">Home</a></li>
                 <li><a href="#projects">Portfolio</a></li>
                 <li><a href="#footer">Contact</a></li>
             </ul>
         </div>
-        <!--End of navigation bar-->
-          <section id="welcome-section">
-        <header>
-        <!--Start of header-->
-            <div id="header"> 
-                <div class="grid-container">
-                    <h1 class="MainTitle">Hi, my name is Juan Nava and I'm a Full Stack Developer</h1>
 
-                    <h2 style="width: 100%; " class="button"><a href="#portfolio">Take a look to some of my projects<br>
-                        <span id="button1" class="fa fa-chevron-down" aria-hidden="true"></span></a></h2>
-                </div>
-
-            <!--End of header-->
+        <div id="loading-section">
+            <div id="loading-text" class="loading-text-animation" style="width: 495px;"></div>
+            <div id="loading-text2" style="width: 340px;"></div>
+            <div id="loading-bar-container">
+                <div id="loading-bar"></div>
             </div>
-        </header>
-          </section>
-          <section id="projects">
-        <!--Start of portfolio section-->
-        <div id="portfolio">
-            <div>
-    <a
-      href="https://johannwolf.github.io/rock-paper-scissors-game/"
-      target="_blank"
-      class="d1 project-tile"
-    >
-      <div class="items_container">
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fal fa-hand-rock fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fal fa-hand-paper fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <!--Line break-->
-                    <div style="flex-basis: 100%; height: 0px;"></div> 
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fal fa-hand-peace fa-stack-1x fa-inverse"></i>
-                        </span>
-                        </div>
-      </div>
-      <h2 class="project project-title">
-        <span class="code">&lt;</span>
-        JS Rock, Paper, Scissors
-        <span class="code">&#47;&gt;</span>
-      </h2>
-    </a>
-          </div>
+        </div>
 
-           <div>
-    <a
-      href="https://codepen.io/JohannWolf/full/BaRKeYG"
-      target="_blank"
-      class="d1 project-tile"
-    >
-      <div class="items_container">
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fal fa-plug fa-stack-1x fa-inverse"></i>
-                        </span>
+        <!--End of navigation bar-->
+        <section id="welcome-section">
+            <header>
+            <!--Start of header-->
+                <div id="header"> 
+                    <div class="grid-container">
+                        <h1 class="MainTitle">Hi, my name is Juan Nava and I'm a Full Stack Developer</h1>
+
+                        <h2 style="width: 100%; " class="button"><a href="#portfolio">Take a look to some of my projects<br>
+                            <span id="button1" class="fa fa-chevron-down" aria-hidden="true"></span></a></h2>
                     </div>
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fal fa-wave-square fa-stack-1x fa-inverse"></i>
-                        </span>
+
+                <!--End of header-->
+                </div>
+            </header>
+        </section>
+        <section id="projects">
+            <!--Start of portfolio section-->
+            <div id="portfolio">
+
+                <div id="construction-text">
+                    <p>This page is under construction</p>
+                    <div id="construction-section">
+                        <pre id="loading-animation">-\\|/</pre>
                     </div>
-                    <!--Line break-->
-                    <div style="flex-basis: 100%; height: 0px;"></div> 
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fal fa-water fa-stack-1x fa-inverse"></i>
-                        </span>
-                        </div>
-      </div>
-      <h2 class="project project-title">
-        <span class="code">&lt;</span>
-        Tribute Page
-        <span class="code">&#47;&gt;</span>
-      </h2>
-    </a>
-          </div>
-          
-          <div>
-    <a
-      href="https://codepen.io/JohannWolf/full/OJmXXMY"
-      target="_blank"
-      class="d1 project-tile"
-    >
-      <div class="items_container">
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fab fa-wpforms fa-stack-1x fa-inverse"></i>
-                        </span>
+                </div>
+                  
+            <div style="display: none;">
+            <a
+            href="https://johannwolf.github.io/rock-paper-scissors-game/"
+            target="_blank"
+            class="d1 project-tile"
+            >
+            <div class="items_container">
+                <div >
+                    <span  class="fa-stack fa-3x">
+                        <i class="fas fa-hexagon fa-stack-2x"></i>
+                        <i class="fal fa-hand-rock fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div >
+                    <span  class="fa-stack fa-3x">
+                        <i class="fas fa-hexagon fa-stack-2x"></i>
+                        <i class="fal fa-hand-paper fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <!--Line break-->
+                <div style="flex-basis: 100%; height: 0px;"></div> 
+                <div >
+                    <span  class="fa-stack fa-3x">
+                        <i class="fas fa-hexagon fa-stack-2x"></i>
+                        <i class="fal fa-hand-peace fa-stack-1x fa-inverse"></i>
+                    </span>
                     </div>
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="far fa-edit fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <!--Line break-->
-                    <div style="flex-basis: 100%; height: 0px;"></div> 
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fas fa-poll-h fa-stack-1x fa-inverse"></i>
-                        </span>
-                        </div>
-      </div>
-      <h2 class="project project-title">
-        <span class="code">&lt;</span>
-        Survey Form
-        <span class="code">&#47;&gt;</span>
-      </h2>
-    </a>
-          </div>
-          
-          <div>
-    <a
-      href="https://codepen.io/JohannWolf/full/abWmEbG"
-      target="_blank"
-      class="d1 project-tile"
-    >
-      <div class="items_container">
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="far fa-file-alt fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="far fa-file-code fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </div>
-                    <!--Line break-->
-                    <div style="flex-basis: 100%; height: 0px;"></div> 
-                    <div >
-                        <span  class="fa-stack fa-3x">
-                            <i class="fas fa-hexagon fa-stack-2x"></i>
-                            <i class="fas fa-bug fa-stack-1x fa-inverse"></i>
-                        </span>
-                        </div>
-      </div>
-      <h2 class="project project-title">
-        <span class="code">&lt;</span>
-        Technical Documentation
-        <span class="code">&#47;&gt;</span>
-      </h2>
-    </a>
-          </div>
+            </div>
+                <h2 class="project project-title">
+                    <span class="code">&lt;</span>
+                    JS Rock, Paper, Scissors
+                    <span class="code">&#47;&gt;</span>
+                </h2>
+                </a>
+            </div>
         <!--End of portfolio section-->
-          </section>
+        </section>
         <footer>
             <section id="footer">
                 <div class="form_container">
@@ -216,5 +123,6 @@
                 </div>  
             </section>
         </footer>
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
