@@ -14,8 +14,14 @@ html {
     background-color: black;
   }
 
-  #loading-section, #welcome-section, #projects {
+  #loading-section, #welcome-section, #projects, #footer {
     height: 100vh;
+  }
+
+  #welcome-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /*//////////////////////////////////////////////
@@ -27,7 +33,7 @@ html {
 
   #construction-text p {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 20%;
   }
   
   #construction-section {
@@ -88,6 +94,7 @@ li:not(:first-child) a:hover {
 .MainTitle {
     font-size: 40px;
     margin-bottom: 20px;
+    margin: 0px auto 20px auto;
 }
 
 .button {
@@ -124,6 +131,29 @@ li:not(:first-child) a:hover {
   border-right: 3px solid;
 }
 
+#footer .form_container{
+  padding-top: 15%;
+}
+
+.form_fields{
+  background: black;
+  border: white dashed 2px;
+  color: white;
+  width: 500px;
+  padding: 5px;
+}
+
+.form-inputs{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+label{
+  width: 80px;
+  padding: 5px;
+}
+
 @keyframes typing {
   from {
       width: 0;
@@ -146,7 +176,7 @@ li:not(:first-child) a:hover {
   #loading-bar {
     width: 0%;
     height: 100%;
-    background-color: #00ff00;
+    background-color: #fafafa;
     animation: loading 10s linear;
   }
   
