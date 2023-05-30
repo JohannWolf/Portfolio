@@ -154,6 +154,21 @@ label{
   padding: 5px;
 }
 
+#submit{
+  background: black;
+  border: dashed 2px;
+  color: white;
+  padding: 5px;
+  width: 100px;
+}
+
+.footer_links i{
+  color: white;
+  border: dashed 1px;
+  padding: 10px;
+  margin: 0 20px;
+}
+
 @keyframes typing {
   from {
       width: 0;
