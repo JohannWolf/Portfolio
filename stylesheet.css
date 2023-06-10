@@ -33,16 +33,29 @@ html {
 
   #construction-text p {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
   }
   
   #construction-section {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   
   #loading-animation {
     font-size: 24px;
+  }
+
+  #construction-text pre{
+    text-align: left;
+    width: 50%;
+  }
+  
+  .json-section{
+    display: flex;
+  }
+  .json-section a{
+    text-decoration: none;
+    color: wheat;
   }
  /********END*****************/
 
@@ -132,7 +145,7 @@ li:not(:first-child) a:hover {
 }
 
 #footer .form_container{
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 .form_fields{
